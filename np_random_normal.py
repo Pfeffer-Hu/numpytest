@@ -48,7 +48,7 @@ def randnTest():
 
 #创建指定期望和方差的正太分布
 def normalTest():
-    a=np.random.normal(size=5)  #默认的期望是loc=0.0  方差scale=1.0
+    a=np.random.normal(size=(0,2),loc = 0.0, scale = 1.0)  #默认的期望是loc=0.0  方差scale=1.0
     print(a)
 
     #指定期望和方差
